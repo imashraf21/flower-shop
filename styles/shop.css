@@ -78,6 +78,7 @@ button {
     vertical-align: middle;
 }
 
+/* Featured Flower */
 #featured {
     padding: 100px 0;
 }
@@ -124,4 +125,22 @@ button {
     font-weight: 700;
     line-height: 35px; /* 145.833% */
     text-decoration-line: underline;
+}
+
+/* Features */
+#features {
+    padding-bottom: 100px;
+}
+
+.features {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features .features-content {
+    text-align: center;
 }
